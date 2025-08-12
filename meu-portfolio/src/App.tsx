@@ -1,9 +1,5 @@
 import { useState } from "react";
 
-function Pill({ children }: { children: React.ReactNode }) {
-  return <span className="pill">{children}</span>;
-}
-
 type Project = {
   id: string;
   title: string;
